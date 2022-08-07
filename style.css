@@ -1,0 +1,76 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(251, 241, 225);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(165, 249, 249);
+    color: palevioletred;
+}
+
+button {
+    color: black;
+    border-radius: 12px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.digit {
+    background-color: lightslategray;
+    margin: 2px;
+}
+
+.operator {
+    background-color: lemonchiffon;
+    margin: 5px;
+}
+
+.otherButton {
+    background-color: peachpuff;
+    margin: 5px;
+}
+
+#calculator {
+    border: 2px solid black;
+    width: 400px;
+    height: 540px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+#operatorBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    height: 100px;
+}
+
+#digitBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    height: 250px;
+}
+
+#otherBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    height: 70px;
+}
+
+#screen {
+    border: 4px;
+    border-style: inset;
+    padding: 2px;
+    background-color: rgb(198, 227, 237);
+    width: 350px;
+    height: 70px;
+    margin: 13px auto;
+    text-align: right;
+    font-size: 55px;
+}
